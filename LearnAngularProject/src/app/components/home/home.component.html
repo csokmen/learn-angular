@@ -1,0 +1,27 @@
+<div class="home">
+  <h2>Welcome to Angular 19</h2>
+  <p>This is the home page of our application.</p>
+
+  <div class="container">
+    <ul>
+      <li *ngFor="let item of items">{{ item }}</li>
+    </ul>
+
+    <button (click)="addItem()">Add Item</button>
+  </div>
+
+  <div class="container">
+    <app-counter></app-counter>
+  </div>
+
+  <div class="container">
+    <h2>Service Data:</h2>
+    <ul>
+      <li *ngFor="let item of serviceData">{{ item }}</li>
+    </ul>
+    <div>
+      <input [(ngModel)]="newItem" placeholder="New item">
+      <button (click)="addServiceData()">Add to Service</button>
+    </div>
+  </div>
+</div>

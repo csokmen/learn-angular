@@ -4,3 +4,6 @@
 
 > ng g s services/api
 > ng g c components/posts
+
+> ng g c components/home
+> ng g c components/about
