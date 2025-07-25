@@ -1,2 +1,3 @@
 > ng g c components/counter
 
+> ng g s services/data
