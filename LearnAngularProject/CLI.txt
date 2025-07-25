@@ -1,3 +1,6 @@
 > ng g c components/counter
 
 > ng g s services/data
+
+> ng g s services/api
+> ng g c components/posts
