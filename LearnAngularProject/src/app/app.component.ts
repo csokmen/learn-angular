@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LearnAngularProject';
+  items = ['Item 1', 'Item 2', 'Item 3'];
+  currentDate = new Date();
+
+  addItem() {
+    this.items.push(`Item ${this.items.length + 1}`);
+  }
 }
