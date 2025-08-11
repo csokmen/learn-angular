@@ -3,3 +3,9 @@
 <h1>{{ title }}</h1>
 <input type="text" [value]="initialText">
 <button (click)="changeTitle()">Change Title</button>
+
+<h1>User List</h1>
+<button (click)="toggleUsers()">Toggle Users</button>
+<ul *ngIf="showUsers">
+  <li *ngFor="let user of users">{{ user.name }} - Age {{ user.age }}</li>
+</ul>

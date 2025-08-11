@@ -20,3 +20,10 @@ Data binding allows you to connect your component's data (the class) with its vi
 *   **Event Binding `( )`:** Binds a user event (like a click or keystroke) to a method in your component.
 
 Commit: https://github.com/csokmen/learn-angular/commit/2707d9483eff62e749b95c4957264b273bd43997
+
+## 3. Directives
+
+Directives are instructions in the DOM. They allow you to dynamically add, remove, or manipulate DOM elements.
+
+*   **`*ngIf`:** A structural directive that conditionally adds or removes an element from the DOM.
+*   **`*ngFor`:** A structural directive that repeats a template for each item in a collection.
