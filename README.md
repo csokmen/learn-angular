@@ -27,3 +27,5 @@ Directives are instructions in the DOM. They allow you to dynamically add, remov
 
 *   **`*ngIf`:** A structural directive that conditionally adds or removes an element from the DOM.
 *   **`*ngFor`:** A structural directive that repeats a template for each item in a collection.
+
+Commit: https://github.com/csokmen/learn-angular/commit/45d65709dc38d99848b873b66183e7f389d45b92
