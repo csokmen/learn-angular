@@ -33,3 +33,5 @@ Commit: https://github.com/csokmen/learn-angular/commit/45d65709dc38d99848b873b6
 ## 4. Services & Dependency Injection
 
 Services are classes designed to handle tasks that are not tied to a specific view, such as fetching data, logging, or managing application state. Dependency Injection (DI) is a design pattern where Angular provides a component with the services it needs (its dependencies) rather than the component creating them itself. This promotes modularity and reusability.
+
+Commit: https://github.com/csokmen/learn-angular/commit/1e8bbbed3816ed969299bd3062c68d252c91d7d4
