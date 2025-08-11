@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Learn Angular Project';
+  initialText = 'This is some initial text.';
+
+  changeTitle() {
+    this.title = 'New Title!';
+  }
 }
