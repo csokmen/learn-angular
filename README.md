@@ -15,3 +15,5 @@ Data binding allows you to connect your component's data (the class) with its vi
 *   **Interpolation `{{ }}`:** One-way data binding that displays component data in the template.
 *   **Property Binding `[ ]`:** One-way data binding that sets a property of a DOM element to a component's data value.
 *   **Event Binding `( )`:** Binds a user event (like a click or keystroke) to a method in your component.
+
+Commit: https://github.com/csokmen/learn-angular/commit/2707d9483eff62e749b95c4957264b273bd43997
