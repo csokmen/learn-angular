@@ -12,9 +12,17 @@
 
 <div class="topic-section">
   <h1>3. Directives</h1>
-  <h1>User List</h1>
+  <h2>User List</h2>
   <button (click)="toggleUsers()">Toggle Users</button>
   <ul *ngIf="showUsers">
     <li *ngFor="let user of users">{{ user.name }} - Age {{ user.age }}</li>
+  </ul>
+</div>
+
+<div class="topic-section">
+  <h1>4. Services & Dependency Injection</h1>
+  <h2>Users From Service</h2>
+  <ul>
+    <li *ngFor="let user of usersFromService">{{ user.name }} - Age {{ user.age }}</li>
   </ul>
 </div>

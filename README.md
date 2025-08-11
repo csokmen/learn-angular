@@ -29,3 +29,7 @@ Directives are instructions in the DOM. They allow you to dynamically add, remov
 *   **`*ngFor`:** A structural directive that repeats a template for each item in a collection.
 
 Commit: https://github.com/csokmen/learn-angular/commit/45d65709dc38d99848b873b66183e7f389d45b92
+
+## 4. Services & Dependency Injection
+
+Services are classes designed to handle tasks that are not tied to a specific view, such as fetching data, logging, or managing application state. Dependency Injection (DI) is a design pattern where Angular provides a component with the services it needs (its dependencies) rather than the component creating them itself. This promotes modularity and reusability.
