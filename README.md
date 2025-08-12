@@ -43,3 +43,5 @@ Routing enables navigation from one view to the next as users perform applicatio
 *   **`Routes`**: An array that defines the navigation paths. Each route maps a URL path to a component.
 *   **`router-outlet`**: A directive that acts as a placeholder where the router displays the component for the current route.
 *   **`routerLink`**: A directive to link to a specific route in your application.
+
+Commit: https://github.com/csokmen/learn-angular/commit/2b81cc225c81f78f16be9911dad2dfd1c131493a
