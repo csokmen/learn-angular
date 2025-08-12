@@ -53,3 +53,5 @@ Template-Driven forms rely on directives in the template to create and manage th
 *   **`FormsModule`**: Imports the necessary providers and directives for template-driven forms.
 *   **`ngModel`**: A directive that creates a two-way data binding between a form control and a property in the component.
 *   **`ngForm`**: A directive that creates a top-level `FormGroup` instance and binds it to a `<form>` element.
+
+Commit: https://github.com/csokmen/learn-angular/commit/33fb4f5c620392e417e7511ddf5d860f590aaef9
