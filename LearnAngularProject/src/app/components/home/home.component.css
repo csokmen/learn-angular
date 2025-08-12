@@ -1,0 +1,19 @@
+h1 {
+  color: #333;
+}
+
+input {
+  margin-top: 10px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.topic-section {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

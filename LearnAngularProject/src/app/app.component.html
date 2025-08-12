@@ -1,28 +1,12 @@
 <div class="topic-section">
-  <h1>1. Components</h1>
-  <p>Welcome to the world of Angular!</p>
+  <h1>5. Routing</h1>
+  <nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/users">Users</a>
+  </nav>
 </div>
 
-<div class="topic-section">
-  <h1>2. Data Binding</h1>
-  <h2>{{ title }}</h2>
-  <input type="text" [value]="initialText">
-  <button (click)="changeTitle()">Change Title</button>
-</div>
+<main>
+  <router-outlet></router-outlet>
+</main>
 
-<div class="topic-section">
-  <h1>3. Directives</h1>
-  <h2>User List</h2>
-  <button (click)="toggleUsers()">Toggle Users</button>
-  <ul *ngIf="showUsers">
-    <li *ngFor="let user of users">{{ user.name }} - Age {{ user.age }}</li>
-  </ul>
-</div>
-
-<div class="topic-section">
-  <h1>4. Services & Dependency Injection</h1>
-  <h2>Users From Service</h2>
-  <ul>
-    <li *ngFor="let user of usersFromService">{{ user.name }} - Age {{ user.age }}</li>
-  </ul>
-</div>

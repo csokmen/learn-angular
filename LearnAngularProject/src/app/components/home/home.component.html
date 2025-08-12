@@ -1,0 +1,21 @@
+<div class="topic-section">
+  <h1>1. Components</h1>
+  <p>Welcome to the world of Angular!</p>
+</div>
+
+<div class="topic-section">
+  <h1>2. Data Binding</h1>
+  <h2>{{ title }}</h2>
+  <input type="text" [value]="initialText">
+  <button (click)="changeTitle()">Change Title</button>
+</div>
+
+<div class="topic-section">
+  <h1>3. Directives</h1>
+  <h2>User List</h2>
+  <button (click)="toggleUsers()">Toggle Users</button>
+  <ul *ngIf="showUsers">
+    <li *ngFor="let user of users">{{ user.name }} - Age {{ user.age }}</li>
+  </ul>
+</div>
+

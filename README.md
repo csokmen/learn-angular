@@ -35,3 +35,11 @@ Commit: https://github.com/csokmen/learn-angular/commit/45d65709dc38d99848b873b6
 Services are classes designed to handle tasks that are not tied to a specific view, such as fetching data, logging, or managing application state. Dependency Injection (DI) is a design pattern where Angular provides a component with the services it needs (its dependencies) rather than the component creating them itself. This promotes modularity and reusability.
 
 Commit: https://github.com/csokmen/learn-angular/commit/1e8bbbed3816ed969299bd3062c68d252c91d7d4
+
+## 5. Routing
+
+Routing enables navigation from one view to the next as users perform application tasks. The Angular Router allows you to build a Single Page Application with multiple views and navigation.
+
+*   **`Routes`**: An array that defines the navigation paths. Each route maps a URL path to a component.
+*   **`router-outlet`**: A directive that acts as a placeholder where the router displays the component for the current route.
+*   **`routerLink`**: A directive to link to a specific route in your application.

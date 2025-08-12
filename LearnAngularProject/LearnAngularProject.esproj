@@ -8,6 +8,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\LearnAngularProject\browser\</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="src\app\components\" />
     <Folder Include="src\app\services\" />
   </ItemGroup>
 </Project>
