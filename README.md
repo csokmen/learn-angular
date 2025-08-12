@@ -45,3 +45,11 @@ Routing enables navigation from one view to the next as users perform applicatio
 *   **`routerLink`**: A directive to link to a specific route in your application.
 
 Commit: https://github.com/csokmen/learn-angular/commit/2b81cc225c81f78f16be9911dad2dfd1c131493a
+
+## 6. Template-Driven Forms
+
+Template-Driven forms rely on directives in the template to create and manage the form's data model. This approach is useful for simple forms where most of the logic can be handled directly in the HTML.
+
+*   **`FormsModule`**: Imports the necessary providers and directives for template-driven forms.
+*   **`ngModel`**: A directive that creates a two-way data binding between a form control and a property in the component.
+*   **`ngForm`**: A directive that creates a top-level `FormGroup` instance and binds it to a `<form>` element.
