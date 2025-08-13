@@ -1,0 +1,12 @@
+<div class="topic-section">
+  <h1>8. HttpClient</h1>
+  <h2>User List (from API)</h2>
+
+  <div *ngIf="isLoading" class="loading">Loading users...</div>
+
+  <div *ngIf="error" class="alert">{{ error }}</div>
+
+  <ul *ngIf="!isLoading && !error">
+    <li *ngFor="let user of users">{{ user.name }} ({{ user.email }})</li>
+  </ul>
+</div>

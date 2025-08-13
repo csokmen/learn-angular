@@ -66,3 +66,11 @@ Reactive forms provide a model-driven approach to handling form inputs. The form
 *   **`Validators`**: Provides a set of built-in validator functions.
 
 Commit: https://github.com/csokmen/learn-angular/commit/13f568b7aaecfb809f44be3d3e37582e27ad9c17
+
+## 8. HttpClient
+
+Most web applications need to communicate with a server over the HTTP protocol to access data. Angular provides a simplified client HTTP API, `HttpClient`, which is based on the `XMLHttpRequest` interface exposed by browsers.
+
+*   **`provideHttpClient()`**: A function that registers the necessary providers for `HttpClient` in a standalone application.
+*   **`HttpClient`**: A service that allows you to perform HTTP requests.
+*   **`Observable`**: `HttpClient` methods return RxJS `Observable` objects, which handle asynchronous operations. You need to subscribe to an `Observable` to initiate the request and receive the response.
