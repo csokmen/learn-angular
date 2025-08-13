@@ -74,3 +74,5 @@ Most web applications need to communicate with a server over the HTTP protocol t
 *   **`provideHttpClient()`**: A function that registers the necessary providers for `HttpClient` in a standalone application.
 *   **`HttpClient`**: A service that allows you to perform HTTP requests.
 *   **`Observable`**: `HttpClient` methods return RxJS `Observable` objects, which handle asynchronous operations. You need to subscribe to an `Observable` to initiate the request and receive the response.
+
+Commit: https://github.com/csokmen/learn-angular/commit/fe851b1dcbf70965a191192d8338e8f675f89cd6
