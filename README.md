@@ -55,3 +55,12 @@ Template-Driven forms rely on directives in the template to create and manage th
 *   **`ngForm`**: A directive that creates a top-level `FormGroup` instance and binds it to a `<form>` element.
 
 Commit: https://github.com/csokmen/learn-angular/commit/33fb4f5c620392e417e7511ddf5d860f590aaef9
+
+## 7. Reactive Forms
+
+Reactive forms provide a model-driven approach to handling form inputs. The form model is explicitly created in the component class, providing more direct control and predictability. This approach is robust, scalable, and well-suited for complex forms.
+
+*   **`ReactiveFormsModule`**: Imports the necessary providers and directives for reactive forms.
+*   **`FormGroup`**: Tracks the value and validity state of a group of `FormControl` instances.
+*   **`FormControl`**: Tracks the value and validity state of an individual form control.
+*   **`Validators`**: Provides a set of built-in validator functions.
