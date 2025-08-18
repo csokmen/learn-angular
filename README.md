@@ -85,3 +85,5 @@ Signals are a new reactivity primitive in Angular that enables fine-grained chan
 *   **`computed()`**: Creates a read-only signal whose value is derived from other signals. It automatically updates when its dependencies change.
 *   **`effect()`**: Schedules a side effect to run whenever its dependent signal values change. Useful for logging or custom DOM manipulation.
 *   **`toSignal`**: A function from `@angular/core/rxjs-interop` that converts an RxJS Observable into a signal, making it easy to integrate signals with existing observable-based APIs like `HttpClient`.
+
+Commit: https://github.com/csokmen/learn-angular/commit/52bb59e6af3cc70921db822742a9c4eac29293d9
