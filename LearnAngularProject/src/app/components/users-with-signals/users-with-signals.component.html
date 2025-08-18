@@ -1,0 +1,10 @@
+<div class="topic-section">
+  <h1>9. Signals</h1>
+  <h2>User List (with Signals)</h2>
+
+  <div *ngIf="isLoading()">Loading users...</div>
+
+  <ul *ngIf="!isLoading()">
+    <li *ngFor="let user of users()">{{ user.name }} ({{ user.email }})</li>
+  </ul>
+  </div>

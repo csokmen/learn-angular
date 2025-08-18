@@ -76,3 +76,12 @@ Most web applications need to communicate with a server over the HTTP protocol t
 *   **`Observable`**: `HttpClient` methods return RxJS `Observable` objects, which handle asynchronous operations. You need to subscribe to an `Observable` to initiate the request and receive the response.
 
 Commit: https://github.com/csokmen/learn-angular/commit/fe851b1dcbf70965a191192d8338e8f675f89cd6
+
+## 9. Signals
+
+Signals are a new reactivity primitive in Angular that enables fine-grained change detection. They provide a straightforward way to manage state that changes over time.
+
+*   **`signal()`**: Creates a writable signal with an initial value. You read the value by calling the signal as a function (`mySignal()`) and update it using `.set()` or `.update()`.
+*   **`computed()`**: Creates a read-only signal whose value is derived from other signals. It automatically updates when its dependencies change.
+*   **`effect()`**: Schedules a side effect to run whenever its dependent signal values change. Useful for logging or custom DOM manipulation.
+*   **`toSignal`**: A function from `@angular/core/rxjs-interop` that converts an RxJS Observable into a signal, making it easy to integrate signals with existing observable-based APIs like `HttpClient`.
