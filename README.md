@@ -87,3 +87,9 @@ Signals are a new reactivity primitive in Angular that enables fine-grained chan
 *   **`toSignal`**: A function from `@angular/core/rxjs-interop` that converts an RxJS Observable into a signal, making it easy to integrate signals with existing observable-based APIs like `HttpClient`.
 
 Commit: https://github.com/csokmen/learn-angular/commit/52bb59e6af3cc70921db822742a9c4eac29293d9
+
+## 10. Advanced Routing: Route Guards
+
+Route Guards are functions that the Angular Router can execute to decide if a user is allowed to navigate to a specific route. This is essential for implementing authorization and protecting parts of your application.
+
+*   **`CanActivateFn`**: A function type for a guard that determines if a route can be activated. It returns `true` if navigation is allowed, `false` to cancel navigation, or a `UrlTree` to redirect the user to a different route.

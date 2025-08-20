@@ -7,6 +7,13 @@
     <a routerLink="/reactive-contact">Contact (Reactive)</a>
     <a routerLink="/users-api">Users (from API)</a>
     <a routerLink="/users-with-signals">Users (Signals)</a>
+    <a routerLink="/profile">Profile</a>
+
+    <div class="auth-controls">
+      <button *ngIf="!authService.isLoggedIn()" (click)="authService.login()">Log In</button>
+      <button *ngIf="authService.isLoggedIn()" (click)="authService.logout()">Log Out</button>
+      <span>Status: {{ authService.isLoggedIn() ? 'Logged In' : 'Logged Out' }}</span>
+    </div>
   </nav>
 </div>
 

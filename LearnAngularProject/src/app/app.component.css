@@ -10,6 +10,8 @@ nav {
   background-color: #f2f2f2;
   padding: 10px;
   border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
 }
 
 nav a {
@@ -25,4 +27,19 @@ nav a:hover {
 
 main {
   padding: 20px;
+}
+
+.auth-controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.auth-controls button {
+  margin-right: 10px;
+}
+
+.auth-controls span {
+  font-size: 0.9em;
+  font-style: italic;
 }
