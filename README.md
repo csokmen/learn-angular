@@ -93,3 +93,5 @@ Commit: https://github.com/csokmen/learn-angular/commit/52bb59e6af3cc70921db8227
 Route Guards are functions that the Angular Router can execute to decide if a user is allowed to navigate to a specific route. This is essential for implementing authorization and protecting parts of your application.
 
 *   **`CanActivateFn`**: A function type for a guard that determines if a route can be activated. It returns `true` if navigation is allowed, `false` to cancel navigation, or a `UrlTree` to redirect the user to a different route.
+
+Commit: https://github.com/csokmen/learn-angular/commit/82c50835fb826c21ed14f9c9b5d77dfb7e047cc4
