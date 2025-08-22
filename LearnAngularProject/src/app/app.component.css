@@ -12,6 +12,7 @@ nav {
   border-bottom: 1px solid #ccc;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav a {
