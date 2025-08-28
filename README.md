@@ -111,4 +111,4 @@ Pipes are simple functions used in templates to transform data for display. They
 *   **Built-in Pipes**: Common pipes like `DatePipe`, `UpperCasePipe`, `LowerCasePipe`, `CurrencyPipe`, and `JsonPipe`.
 *   **Custom Pipes**: You can create your own pipe by creating a class decorated with `@Pipe` that implements the `PipeTransform` interface.
 
-Commit: 
+Commit: https://github.com/csokmen/learn-angular/commit/667463804551b3665ce20ad061e0c19eda4b04c4
