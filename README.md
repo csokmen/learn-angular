@@ -95,3 +95,9 @@ Route Guards are functions that the Angular Router can execute to decide if a us
 *   **`CanActivateFn`**: A function type for a guard that determines if a route can be activated. It returns `true` if navigation is allowed, `false` to cancel navigation, or a `UrlTree` to redirect the user to a different route.
 
 Commit: https://github.com/csokmen/learn-angular/commit/82c50835fb826c21ed14f9c9b5d77dfb7e047cc4
+
+## 11. Advanced Routing: Route Resolvers
+
+A resolver is a function that runs before the router activates a route. It can fetch data from a service, and the router will wait for the data to be available before rendering the component. This ensures that the component has the data it needs right away.
+
+*   **`ResolveFn`**: A function type for a resolver. It returns an `Observable`, a `Promise`, or a direct value. The resolved data is then made available on the `ActivatedRoute`'s `data` property.

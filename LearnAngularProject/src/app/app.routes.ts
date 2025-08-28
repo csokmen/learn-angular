@@ -7,6 +7,8 @@ import { UsersApiComponent } from './components/users-api/users-api.component';
 import { UsersWithSignalsComponent } from './components/users-with-signals/users-with-signals.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { authGuard } from './guards/auth.guard';
+import { UserDetailComponent } from './components/user-detail/user-detail.component';
+import { userDetailResolver } from './resolvers/user-detail.resolver';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,5 +21,12 @@ export const routes: Routes = [
     path: 'profile',
     component: ProfileComponent,
     canActivate: [authGuard]
+  },
+  {
+    path: 'users-api/:id',
+    component: UserDetailComponent,
+    resolve: {
+      user: userDetailResolver
+    }
   },
 ];
