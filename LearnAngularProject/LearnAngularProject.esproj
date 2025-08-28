@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="src\app\components\" />
     <Folder Include="src\app\guards\" />
+    <Folder Include="src\app\pipes\" />
     <Folder Include="src\app\resolvers\" />
     <Folder Include="src\app\services\" />
   </ItemGroup>

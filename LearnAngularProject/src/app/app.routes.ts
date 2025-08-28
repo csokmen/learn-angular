@@ -9,6 +9,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { authGuard } from './guards/auth.guard';
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
 import { userDetailResolver } from './resolvers/user-detail.resolver';
+import { PipesExampleComponent } from './components/pipes-example/pipes-example.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -29,4 +30,5 @@ export const routes: Routes = [
       user: userDetailResolver
     }
   },
+  { path: 'pipes-example', component: PipesExampleComponent },
 ];

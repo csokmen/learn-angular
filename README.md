@@ -103,3 +103,12 @@ A resolver is a function that runs before the router activates a route. It can f
 *   **`ResolveFn`**: A function type for a resolver. It returns an `Observable`, a `Promise`, or a direct value. The resolved data is then made available on the `ActivatedRoute`'s `data` property.
 
 Commit: https://github.com/csokmen/learn-angular/commit/6837bad698aa9d9748fe7b4ac9746294b15603d4
+
+## 12. Pipes
+
+Pipes are simple functions used in templates to transform data for display. They take data as input and return a transformed value. Angular has several built-in pipes, and you can also create your own custom pipes for more specific transformations.
+
+*   **Built-in Pipes**: Common pipes like `DatePipe`, `UpperCasePipe`, `LowerCasePipe`, `CurrencyPipe`, and `JsonPipe`.
+*   **Custom Pipes**: You can create your own pipe by creating a class decorated with `@Pipe` that implements the `PipeTransform` interface.
+
+Commit: 

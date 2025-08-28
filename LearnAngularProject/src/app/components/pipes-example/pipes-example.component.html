@@ -1,0 +1,29 @@
+<div class="topic-section">
+  <h1>12. Pipes</h1>
+  <h2>Pipes Example</h2>
+
+  <div class="example-group">
+    <h3>Built-in Pipes</h3>
+    <ul>
+      <li><strong>DatePipe:</strong> {{ today | date:'fullDate' }}</li>
+      <li><strong>UpperCasePipe:</strong> {{ 'hello world' | uppercase }}</li>
+      <li><strong>LowerCasePipe:</strong> {{ 'HELLO WORLD' | lowercase }}</li>
+      <li><strong>CurrencyPipe:</strong> {{ price | currency:'USD':'symbol' }}</li>
+      <li><strong>PercentPipe:</strong> {{ 0.75 | percent }}</li>
+      <li><strong>JsonPipe:</strong> <pre>{{ someObject | json }}</pre></li>
+    </ul>
+  </div>
+
+  <div class="example-group">
+    <h3>Custom Truncate Pipe</h3>
+    <p>
+      <strong>Original:</strong> {{ longText }}
+    </p>
+    <p>
+      <strong>Truncated (default 20 chars):</strong> {{ longText | truncate }}
+    </p>
+    <p>
+      <strong>Truncated (50 chars):</strong> {{ longText | truncate:50 }}
+    </p>
+  </div>
+</div>
