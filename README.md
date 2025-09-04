@@ -121,3 +121,12 @@ Interceptors allow you to declare transformations that are applied to all outgoi
 *   **`provideHttpClient(withInterceptors([...]))`**: The function used in `app.config.ts` to register one or more interceptor functions.
 
 Commit: https://github.com/csokmen/learn-angular/commit/e5ce9c74c0bca9a6301e3f644c2c1c3dd1bcd0e6
+
+## 14. Advanced Routing: Component Input Binding
+
+This feature simplifies component code by allowing the router to bind data directly to a component's inputs. This includes route parameters, query parameters, and resolver data. It eliminates the need to inject `ActivatedRoute` and manually handle subscriptions.
+
+*   **`withComponentInputBinding()`**: A router feature that enables this functionality globally. It's passed to the `provideRouter` function in `app.config.ts`.
+*   **`@Input()`**: The standard decorator used to declare an input property on a component. The property name must match the route parameter name or the key in the route's `data`/`resolve` object.
+
+Commit: 

@@ -9,7 +9,8 @@
   <ul *ngIf="!isLoading && !error">
     <li *ngFor="let user of users">
       <a [routerLink]="['/users-api', user.id]">{{ user.name }}</a>
-      ({{ user.email }})
+       - ({{ user.email }}) - 
+    <a [routerLink]="['/users-api-input', user.id]">{{ user.username }}</a>
     </li>
   </ul>
 </div>

@@ -10,6 +10,7 @@ import { authGuard } from './guards/auth.guard';
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
 import { userDetailResolver } from './resolvers/user-detail.resolver';
 import { PipesExampleComponent } from './components/pipes-example/pipes-example.component';
+import { UserDetailInputComponent } from './components/user-detail-input/user-detail-input.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -26,6 +27,13 @@ export const routes: Routes = [
   {
     path: 'users-api/:id',
     component: UserDetailComponent,
+    resolve: {
+      user: userDetailResolver
+    }
+  },
+  {
+    path: 'users-api-input/:id',
+    component: UserDetailInputComponent,
     resolve: {
       user: userDetailResolver
     }
