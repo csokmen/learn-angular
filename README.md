@@ -120,4 +120,4 @@ Interceptors allow you to declare transformations that are applied to all outgoi
 *   **`HttpInterceptorFn`**: A function type for an interceptor. It takes the outgoing `HttpRequest` and the `next` handler as arguments and returns an `Observable` of the `HttpEvent`.
 *   **`provideHttpClient(withInterceptors([...]))`**: The function used in `app.config.ts` to register one or more interceptor functions.
 
-Commit: 
+Commit: https://github.com/csokmen/learn-angular/commit/e5ce9c74c0bca9a6301e3f644c2c1c3dd1bcd0e6
