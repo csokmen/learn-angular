@@ -112,3 +112,12 @@ Pipes are simple functions used in templates to transform data for display. They
 *   **Custom Pipes**: You can create your own pipe by creating a class decorated with `@Pipe` that implements the `PipeTransform` interface.
 
 Commit: https://github.com/csokmen/learn-angular/commit/667463804551b3665ce20ad061e0c19eda4b04c4
+
+## 13. HTTP Interceptors
+
+Interceptors allow you to declare transformations that are applied to all outgoing HTTP requests and incoming responses. They are a powerful way to handle cross-cutting concerns like authentication, logging, and caching in a single, centralized location.
+
+*   **`HttpInterceptorFn`**: A function type for an interceptor. It takes the outgoing `HttpRequest` and the `next` handler as arguments and returns an `Observable` of the `HttpEvent`.
+*   **`provideHttpClient(withInterceptors([...]))`**: The function used in `app.config.ts` to register one or more interceptor functions.
+
+Commit: 
