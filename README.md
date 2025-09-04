@@ -129,4 +129,4 @@ This feature simplifies component code by allowing the router to bind data direc
 *   **`withComponentInputBinding()`**: A router feature that enables this functionality globally. It's passed to the `provideRouter` function in `app.config.ts`.
 *   **`@Input()`**: The standard decorator used to declare an input property on a component. The property name must match the route parameter name or the key in the route's `data`/`resolve` object.
 
-Commit: 
+Commit: https://github.com/csokmen/learn-angular/commit/96c84fa8ff5b91f1377d16af859603ebbf262817
