@@ -140,4 +140,4 @@ The `@defer` block is a powerful new feature in Angular that allows you to lazil
 *   **`@loading`**: An optional block that displays content while the deferred dependencies are being loaded.
 *   **`@error`**: An optional block that displays content if loading the deferred dependencies fails.
 
-Commit: 
+Commit: https://github.com/csokmen/learn-angular/commit/609153df9625574a18d67538d471f08ea18d795d
