@@ -1,0 +1,21 @@
+<div class="topic-section">
+  <h1>15. Deferred Loading with `&#64;defer`</h1>
+  <h2>Deferred Loading with &#64;defer</h2>
+  <p>
+    The content below will only be loaded when you click the button.
+    Check the browser's network tab to see the new JavaScript chunk being downloaded.
+  </p>
+
+  @defer (on interaction) {
+  <app-heavy></app-heavy>
+  } @placeholder {
+  <div class="placeholder">
+    <p>Click the button to load the heavy component.</p>
+    <button>Load Component</button>
+  </div>
+  } @loading (after 100ms; minimum 1s) {
+  <div class="loading">Loading... Please wait.</div>
+  } @error {
+  <div class="alert">Failed to load the component.</div>
+  }
+</div>

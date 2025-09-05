@@ -11,6 +11,7 @@ import { UserDetailComponent } from './components/user-detail/user-detail.compon
 import { userDetailResolver } from './resolvers/user-detail.resolver';
 import { PipesExampleComponent } from './components/pipes-example/pipes-example.component';
 import { UserDetailInputComponent } from './components/user-detail-input/user-detail-input.component';
+import { DeferExampleComponent } from './components/defer-example/defer-example.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -39,4 +40,5 @@ export const routes: Routes = [
     }
   },
   { path: 'pipes-example', component: PipesExampleComponent },
+  { path: 'defer-example', component: DeferExampleComponent },
 ];

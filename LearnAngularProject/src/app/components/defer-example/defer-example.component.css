@@ -1,0 +1,43 @@
+h1 {
+  color: #333;
+}
+
+.topic-section {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder, .loading, .alert {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.placeholder {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.loading {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.alert {
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

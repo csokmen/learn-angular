@@ -130,3 +130,14 @@ This feature simplifies component code by allowing the router to bind data direc
 *   **`@Input()`**: The standard decorator used to declare an input property on a component. The property name must match the route parameter name or the key in the route's `data`/`resolve` object.
 
 Commit: https://github.com/csokmen/learn-angular/commit/96c84fa8ff5b91f1377d16af859603ebbf262817
+
+## 15. Deferred Loading with `@defer`
+
+The `@defer` block is a powerful new feature in Angular that allows you to lazily load parts of your template. This can significantly improve initial page load performance by deferring the loading of non-critical content until it's actually needed.
+
+*   **`@defer`**: The main block that contains the content to be deferred. It can be triggered by various conditions, such as when the block enters the viewport (`on viewport`), on user interaction (`on interaction`), or after a timer (`after 500ms`).
+*   **`@placeholder`**: An optional block that displays content while waiting for the defer trigger.
+*   **`@loading`**: An optional block that displays content while the deferred dependencies are being loaded.
+*   **`@error`**: An optional block that displays content if loading the deferred dependencies fails.
+
+Commit: 
